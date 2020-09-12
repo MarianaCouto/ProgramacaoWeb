@@ -21,7 +21,7 @@ O projeto foi criado para aplicar aprendizado do curso.
 
 ## :keyboard: Resultado
 
-**GitHub Pages:** [Link](https://marianacouto.github.io/Web/)
+* Exercicios das aulas executados
 
 
 ## :woman_technologist: Redes Sociais
