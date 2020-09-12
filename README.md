@@ -1,6 +1,6 @@
 # :computer: Projeto
 
-Uma página do curso de programação web.
+Curso de programação web.
 
 ---
 
