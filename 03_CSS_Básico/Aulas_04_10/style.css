@@ -1,0 +1,63 @@
+body{
+
+}
+
+#paragrafos{
+	color: red;
+	background-image: url(../Fundo/Fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; /*cobrir a area*/
+	background-attachment: fixed;
+	
+}
+
+#Titulo{
+	color: black;
+	background-color: #70e5ae;
+/*a classe está dentro do DIV, estão prevalece a cor da class*/
+}
+
+.texto_verde{
+	color: green;
+}
+
+.subdiv{
+	color: blue;
+}
+
+
+#cm{
+	background-color: blue;
+	width: 1cm; /*largura*/
+	height: 1cm; /*altura*/
+}
+
+#mm{
+	background-color: red;
+	width: 1mm; /*largura*/
+	height: 1mm; /*altura*/
+}
+
+#in{
+	background-color: blue;
+	width: 1in; /*largura*/
+	height: 1in; /*altura*/
+}
+
+#px{
+	background-color: red;
+	width: 10px; /*largura*/
+	height: 10px; /*altura*/
+}
+
+#pt{
+	background-color: blue;
+	width: 10pt; /*largura*/
+	height: 10pt; /*altura*/
+}
+
+#pc{
+	background-color: red;
+	width: 1pc; /*largura*/
+	height: 1pc; /*altura*/
+}
