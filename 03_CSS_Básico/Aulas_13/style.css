@@ -1,0 +1,23 @@
+
+.borda{
+
+	/*border-width: 5px;
+	border-style: solid;
+	border-color: red;
+	border-radius: 5px;*/
+	border: 5px dashed blue;
+
+}
+
+/*.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}*/
+
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;
+.none {border-style: none;} /*não aparece*/
+.hidden {border-style: hidden;} /*não aparece como se o elemento está na tela mas não aparece*/
+}

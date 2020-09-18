@@ -1,0 +1,97 @@
+body{
+
+}
+
+#paragrafos{
+	color: red;
+	background-image: url(../Fundo/Fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; /*cobrir a area*/
+	background-attachment: fixed;
+	
+}
+
+#Titulo{
+	color: black;
+	background-color: #70e5ae;
+/*a classe está dentro do DIV, estão prevalece a cor da class*/
+}
+
+.texto_verde{
+	color: green;
+}
+
+.subdiv{
+	color: blue;
+}
+
+
+#cm{
+	background-color: blue;
+	width: 1cm; /*largura*/
+	height: 1cm; /*altura*/
+}
+
+#mm{
+	background-color: red;
+	width: 1mm; /*largura*/
+	height: 1mm; /*altura*/
+}
+
+#in{
+	background-color: blue;
+	width: 1in; /*largura*/
+	height: 1in; /*altura*/
+}
+
+#px{
+	background-color: red;
+	width: 10px; /*largura*/
+	height: 10px; /*altura*/
+}
+
+#pt{
+	background-color: blue;
+	width: 10pt; /*largura*/
+	height: 10pt; /*altura*/
+}
+
+#pc{
+	background-color: red;
+	width: 1pc; /*largura*/
+	height: 1pc; /*altura*/
+}
+
+.container{
+	/*font-size: 20px;*/
+	/*width: 300px;
+	background: red;*/
+	/*width: 50vw; /*1% da largura da janela, 50 = 50%*/
+	/*width: 50vh; /*1% da altura da janela, 50 = 50%*/
+	/*width: 50vmin; /*1% da menor dimensão da janela entre largura e altura, 50 = 50%*/
+	width: 50vmax; /*1% da maior dimensão da janela entre largura e altura, 50 = 50%*/
+	background: red;
+
+}
+
+.inside{
+	/*font-size: 2em; /* unidade relativa do elemento 1 x o tamanho do pai*/
+	/*width: 1em; /*é sempre em relação ao tamanho da fonte, neste caso 40 px*/
+	/*background: blue;*/
+	/*font-size: 2rem; /*faz referência ao tamanho do elemento raiz, tag html*/
+	width: 100%;/* % em relação ao elemento pai*/
+	background: blue;
+
+}
+
+#base{
+	height: 10px;
+	background-color: red;
+}
+
+#container1{
+	background-color: blue;
+	color: white;
+	/*margin: 10px; /*borda para fora se não colocar direita, esquerda, topo, baixo, serve para todos os lados*/
+	padding: 10px; /*borda para dentro*/
+}
