@@ -1,32 +1,11 @@
-body{
-	padding: 0;
-	margin: 0;
-}
-
-.container{
-	background-color: red;
-	padding: 5px;
-	border: 5px solid blue;
-	margin: 10px;
-}
-
-.content{
-	background-color: #ddd;
-	border: 5px solid green;
-	padding: 5px;
-}
-
-.square{
-	width: 100px;
-	height: 100px;
-	background-color: yellow;
-	border: 10px solid blue;
-	padding: 10px;
-	box-sizing: border-box; /*para ficar tudo do tamanho estipulado w x h*/
-}
-
-.square2{
-	width: 100px;
-	height: 100px;
-	background-color: yellow;
+p{
+	color: red;
+	text-align: justify; /*alinhamento texto*/
+	text-transform: capitalize; /*maiusculo, minusculo*/
+	text-indent: 35px; /*espaço início parágrafo*/
+	text-decoration: underline; /*sublinhado*/
+	letter-spacing: 1.2px; /*separação entre letras*/
+	line-height: 1.5; /*separação entre linhas*/
+	word-spacing: 5px; /*separação entre palavras*/
+	text-shadow: 2px 2px #ddd; /*sombra 3 valores deslocamento direita baixo cor*/
 }

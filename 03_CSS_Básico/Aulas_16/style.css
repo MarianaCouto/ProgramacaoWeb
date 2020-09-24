@@ -1,0 +1,13 @@
+p{
+	font-family: Helvetica, "Comic Sans MS", sans-serif;
+	font-style: italic;
+	font-weight: bold; /* se colocar 100 a 900 vai mudando a espessura, onde 400 é a fonte normal*/
+	font-size: 22px;
+	font-variant: small-caps; /*todas as letras ficam maiusculas, e mantem o tamanho da minuscula*/
+
+
+
+
+	
+
+}

@@ -1,0 +1,28 @@
+.links{
+	text-decoration: none; /*tira o sublinhado do link*/
+	color: #bc2035;
+	/*cursor: crosshair;*/
+	/*background: #bc2035;*/
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	border: 2px solid #bc2035;
+
+};
+
+.links:visited{
+	background-color: black;
+}
+
+.links:hover{
+	background: #bc2035;
+	color: white;
+}
+
+.links:active{
+
+	background: #ddd;
+	color: white;
+
+}
