@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+}
+	
+
+#card{
+	background-image: url(./imagens/background.png);
+	background-repeat: no-repeat;
+	width: 400px; 
+	height: 200px; 
+	background-size: cover; 
+	margin: 5px 30px;
+	padding-top: 3px;	
+	padding-left: 20px;
+	padding-bottom: 3px;
+	box-sizing: border-box;
+	font-family:  "Courier New", "Comic Sans MS";
+	font-size: 14px;
+	
+
+}
+
+a{
+	
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+
+	
+}
+
+#insta{
+	list-style-image: url("./imagens/insta.png");
+}
+
+#twitter{
+	list-style-image: url("./imagens/twitter.png");
+}
+
+#youtube{
+	list-style-image: url("./imagens/youtube.png");
+}
+
+
+
