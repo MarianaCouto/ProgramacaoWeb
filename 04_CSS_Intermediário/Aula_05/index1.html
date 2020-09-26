@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mariana Couto</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				font-size: 1.2rem;
+
+				
+			}
+
+		.static{
+			position: static;
+		}
+
+		.relative{ 
+
+			position: relative;
+			/*top: 40px;*/
+			/*left: 30px;*/
+			
+/*			Permite e é relativo a posição static original
+			top: 15px;
+			left: 40px;
+			bottom: 20px;
+			right: 20;*/
+		}
+
+		.fixed{
+			position: fixed;
+			right: 20px;
+			bottom: 20px;
+			
+			/*Permite e é em relação a janela
+			top: 15px;
+			left: 40px;
+			bottom: 20px;
+			right: 20;*/
+
+		}
+
+		.absolute{
+			position: absolute;
+			top: 40px;
+			
+
+			/*Permite e é em relação ao elemento pai, se não tiver será o body
+			top: 15px;
+			left: 40px;
+			bottom: 20px;
+			right: 20;*/
+		}
+
+		.quadrado{
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			/*position: static; não precisa colocar pq padrão*/
+		}
+		
+		.retangulo{
+			width: 100px;
+			height: 500px;
+			margin-top: 20px;
+
+		}
+
+		.bg-blue{
+			background-color: blue;
+		}
+
+		.bg-red{
+			background-color: red;
+		}
+
+		.bg-green{
+			background-color: green;
+		}
+
+	
+
+		</style>
+
+	</head>
+	
+	<body>
+
+		<div class="static quadrado bg-blue">
+						
+		</div> 
+
+		<div class="retangulo relativo bg-blue" >
+			<div class="static quadrado bg-red">
+			</div>
+			
+		</div>
+
+		<div class="fixed quadrado bg-green">
+		</div>
+
+	</body>
+</html>
