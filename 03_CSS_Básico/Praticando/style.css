@@ -1,0 +1,67 @@
+body{
+
+	font-family:  Tahoma, "Comic Sans MS";
+	font-size: 14px;
+	background-image: url(./imagens/background.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+
+	
+}
+	
+h1{
+	font-family: "Balsamiq Sans";
+	font-size: 40px;
+}
+
+h2{
+	font-family: "Balsamiq Sans";
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+
+a{	
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+
+}
+
+
+#email{
+	list-style-type: none;
+	list-style-image: url("./imagens/email.png");
+
+}
+
+#insta{
+	list-style-type: none;
+	list-style-image: url("./imagens/insta.png");
+}
+
+#whats{
+	list-style-type: none;
+	list-style-image: url("./imagens/whats.jpg");
+
+}
+
+#mapa{
+	list-style-type: none;
+	list-style-image: url("./imagens/mapa.jpg");
+
+}
+
+#linkedin{
+	list-style-type: none;
+	list-style-image: url("./imagens/linkedin.jpg");
+
+}
+
+#github{
+	list-style-image: url("./imagens/github.jpg");
+}
+
+
+
