@@ -1,0 +1,127 @@
+1 - Introdução
+2 - Display
+É a responsável por dizer como cada elemento será mostrada na tela.
+Todos os elementos já vem como uma propriedade display setada como padrão. Cada elemento tem uma.
+
+Tipos mais comuns:
+- None: Faz com que um elemento, nunca tivesse sido colocado na tela. Como se não existisse na tela. Exemplo quando a imagem passou a não aparecer.
+- Block: Exemplo parágrafo e div,  é um bloco, que vai do início até o fim da página (ocupa a linha inteira), e ao terminar um elemento, o próximo conteúdo vai automaticamente para a próxima linha; Neste display é possível colocar uma largura específica (width) e uma altura (heigth) específica.
+O parágrafo naturalmente tem uma margem, por isto o espaço entre linhas.
+- Inline: Exemplo span, que fica na mesma linha. Não permite colocar altura e nem largura.
+- Inline-Block: Vai manter o comportamento da mesma linha (inline), e vai permitir configurar altura e largura.
+
+Outra propriedade vista que não fazia parte do contexto.
+Visibility: hidden - continua dando o espaço do elemento, no caso uma imagem, e não exibe o elemento.
+
+===========================================================
+3 - Overflow
+É quando tem um conteúdo (exemplo texto ou imagem) é maior que o tamanho do elemento, é necessário delimitar o conteúdo a área do elemento pai.
+Esta propriedade tem alguns valores possíveis:
+
+- Visible (padrão): aparece todo o conteúdo independente se está passando do elemento.
+- Hidden: esconde toda a parte do conteúdo que está passando do elemento.
+- scroll: apresenta um scroll (barra de rolagem), aplica a barra horizontal e vertical
+- auto: Coloca o scroll somente onde precisar (vertical e horizontal)
+
+Outra maneira é utilizar o eixo que quer colocar o overflow-y ou overflow-x.
+overflow-y = scroll;
+overflow-x= hidden (esconde a barra de rolagem do y).
+
+===========================================================
+4 - Alinhamento Horizontal
+Como posicionar o elemento de forma horizontal. Mais a direita, a esquerda ou no centro.
+Uma forma de centralizar um elemento é usando a margin-left=valor fixo px, porém ao aumentar a janela não fica proporcional.
+Para garantir que fique no centro, deve-se utiliza margin:auto, independente do tamanho da janela.
+Para alinhar a direita, margin-lef:auto. E a esquerda margin-rigth:auto.
+
+Se for uma imagem, a primeira opção é modificar para um display block, com a margin auto.
+A outra maneira é colocar a imagem dentro de outro elemento (ex div container, e no css colocar text-align: center.
+
+===========================================================
+5 - Position
+É uma propriedade que permite configurar a posição do elemento.
+
+- Static (padrão): um elemento após o outro (na linha de baixo quando for display block, e do lado quando for display inline-block), fluxo padrão de uma página; NÃO permite Rigth (direita), Top (cima), Left (Esquerda), Bottom (Baixo).
+- Relative: vai ser posicionado da mesma maneira que o static, só que vai permitir receber outras propriedades: Rigth (direita), Top (cima), Left (Esquerda), Bottom (Baixo). É relativo a posição original se fosse estatic.
+- Fixed: Também tem o Rigth (direita), Top (cima), Left (Esquerda), Bottom (Baixo), só que é em relação a Janela. É usado naquele chat online nas páginas, onde rola a barra de rolagem e o elemento fica no mesmo lugar. rigth 20, bottom 20.
+- Absolute: A princípio vai ficar parecido com o Static, só que permite receber Rigth (direita), Top (cima), Left (Esquerda), Bottom (Baixo). Vai ser em relação ao pai do elemento, se não tiver pai, será o body. Neste caso o pai não pode ser static, se for static, será o body.
+- Sticky: quando colocar sticky e também top:0; o elemento não sai da tela, ou seja fica preso na tela quando tem barra de rolagem.
+
+===========================================================
+6 - Float
+Posicionamento horizontalmente.
+Ao utilizar o display inline no paragrafo junto a uma imagem, o texto fica com o espaço grande entre o topo da imagem e o início do texto.
+O Float permite que um elemento fique flutuando do lado de outro elemento. O texto abraça o elemento flutuante.
+
+Float: left; (imagem ao lado esquerdo do próximo elemento texto).
+Rigth (imagem ao lado direito do próximo elemento texto).
+
+clear: left ou rigth - Para não permitir nada flutuando ao lado do elemento. Neste caso o clear foi colocado no parágrafo.
+
+clear: both - Nem do lado direito e nem do lado esquerdo.
+
+clear: none - permite o elemento flutuando.
+
+Foi usado uma border dentro da div, e o overflow auto, para que a borda fique em torno do texto e da imagem.
+
+Foi criado um menu também.
+
+===========================================================
+7 - Alinhamento Vertical
+
+text-align: center (cetraliza o texto horizontalmente)
+
+1) Para centralizar verticalmente, usa-se a propriedade
+line-height, com o mesmo valor do card 200px (Exemplo), mas neste caso é necessário saber a altura do pai.
+
+2) Outra maneira, usa-se o position absolute que é em relação ao pai do elemento que não seja estatic, neste caso o pai deve ser o card e ter o valor position: relativo.
+
+Centralizar o texto na vertical:
+É necessário utilizar top: 50% + transform: translateY (-50%)
+
+Propriedade transform recebe algumas funções, translateY (-50%), Y começa de cima para baixo, para centralizar o texto na vertical do card, 50% entre o início do texto e o final do texto.
+
+Centralizar o texto na horizontal:
+É necessário utilizar left: 50% + transform: translateX (-50%)
+
+Propriedade transform recebe algumas funções, translateY (-50%), Y começa de cima para baixo, para centralizar o texto na vertical do card, 50% entre o início do texto e o final do texto.
+
+OBS.: como não pode ser utilizado os dois translateX e Y, é necessário utilizar translate (-50%,-50%) x e y.
+
+3) Outra maneira é usando o padding, porém fica mais difícil dizer qual vai a largura e a altura certa.
+
+===========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
