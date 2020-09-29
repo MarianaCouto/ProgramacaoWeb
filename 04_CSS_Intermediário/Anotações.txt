@@ -91,7 +91,13 @@ OBS.: como não pode ser utilizado os dois translateX e Y, é necessário utiliz
 3) Outra maneira é usando o padding, porém fica mais difícil dizer qual vai a largura e a altura certa.
 
 ===========================================================
+8 e 9 - Viewport e responsividade
+Faz a responsividade das informações
 
+===========================================================
+
+10 - Media Queries
+Delimita comportamento css de acordo com o tamanho da tela.
 
 
 
