@@ -1,0 +1,3 @@
+method=
+POST = valores não vão na barra
+GET = valores vão na barra
